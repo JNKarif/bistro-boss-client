@@ -29,4 +29,3 @@ const Cover = ({ img, title }) => {
 };
 
 export default Cover;
- 

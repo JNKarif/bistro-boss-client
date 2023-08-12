@@ -5,7 +5,6 @@ import dessertBg from "../../../assets/menu/dessert-bg.jpeg";
 import pizzaBg from "../../../assets/menu/pizza-bg.jpg";
 import saladBg from "../../../assets/menu/salad-bg.jpg";
 import soupBg from "../../../assets/menu/soup-bg.jpg";
-// import PopularMenu from "../../Home/PopulatMenu/PopularMenu";
 import useMenu from "../../../hooks/useMenu";
 import SectionTitle from "../../../Components/SectionTitle/SectionTitle";
 import MenuCategory from "../MenuCategory/MenuCategory";
@@ -35,18 +34,18 @@ const Menu = () => {
       {/* dessert item */}
       <MenuCategory
         items={dessert}
-        title={"Dessert"}
+        title={"dessert"}
         img={dessertBg}
       ></MenuCategory>
 
       {/* pizza */}
-      <MenuCategory items={pizza} title={"Pizza"} img={pizzaBg}></MenuCategory>
+      <MenuCategory items={pizza} title={"pizza"} img={pizzaBg}></MenuCategory>
 
       {/* salad */}
-      <MenuCategory items={salad} title={"Salad"} img={saladBg}></MenuCategory>
+      <MenuCategory items={salad} title={"salad"} img={saladBg}></MenuCategory>
 
       {/* soup */}
-      <MenuCategory items={soup} title={"Soup"} img={soupBg}></MenuCategory>
+      <MenuCategory items={soup} title={"soup"} img={soupBg}></MenuCategory>
     </div>
   );
 };
